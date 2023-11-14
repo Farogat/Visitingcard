@@ -1,0 +1,30 @@
+.nav1{
+    height: 10vh;
+    backdrop-filter: blur(100px);
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    border-bottom: 1px solid #333;
+    background-color: #058fff30;
+}
+.nav1 h3{
+    text-align: left;
+}
+.myBtn{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-style: 18px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}

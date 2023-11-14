@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gen_g{
+    padding-bottom: 50px;
+}
+.heading_g{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.padd{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.heading_g span{
+    color: blue;
+}
+.main_g{
+    display: flex;
+    padding: 50px;
+}
+.card_g{
+    width: 45%;
+    margin-right: 5%;
+    min-width: 500px;
+    background-color: #fff;
+    position: relative;
+    padding:5px 20px;
+    background-image: url("img/img5.png");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    cursor: move;
+    margin-top: 20px;
+}
+.card_g::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.2;
+}
+.gen_g .logo{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 5px auto;
+    background-image: url("img/logo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.gen_g  input[type="text"]{
+    position: relative;
+    text-align: center;
+    outline: none;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: none;
+    width: 100%;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0;
+    cursor: move;
+
+}
+.gen_g input[type="color"]{
+    width: 30px;
+    height: 30px;
+    border: 3px solid green
+}
+.gen_g ::placeholder{
+    text-transform: capitalize;
+    color: #fff;
+}
+.slogan{
+    font-style: 20px !important;
+    margin: 5px 0;
+}
+.gen_g input:focus,
+.gen_g input:hover{
+    background-color: #ffffff13;
+    border-radius: 2px;
+}
+.website-link, .email{
+    font-size: 16px !important;
+    opacity: .75;
+    position: absolute;
+
+    text-align: left !important;
+    width: 50% !important;
+    height: auto;
+    bottom: 10px;
+
+}
+.website-link{
+    left: 20px;
+}
+.email{
+    right: 20px;
+    text-align: right !important;
+
+}
+
+.setting{
+    width: 50%;
+    height: 200px;
+}
+.gen_g .btn{
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #333;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.gen_g .btn:focus, .gen_g .btn:hover{
+    background-color: grey;
+}
+
+
+.backgrounds{
+    width: auto;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 10px;
+    padding: 10px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 20px 0;
+    overflow-y: scroll;
+}
+.backgrounds img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+.backgrounds img:hover{
+    opacity: 0.5;
+}
+.backgrounds img.active{
+    border: 5px solid #fff;
+}
+
+.download-btn{
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #333;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.twoCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10;
+}
+.cardBottomItems{
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    margin-top: 10px;
+    width: 80%;
+}
+
+
+
+
+
+
+

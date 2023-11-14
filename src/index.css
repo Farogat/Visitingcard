@@ -1,0 +1,37 @@
+.button{
+    padding:20px 40px;
+  margin: 30px;
+  background-color: #000;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer !important;
+}
+.myContainer{
+    background-color: #022542;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.relative{
+    position: relative;
+}
+.login_btn b{
+    font-size: x-small;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: 900;
+}
+@media (max-width: 768px) {
+    body::before{
+        content: 'Dastur faqat komputerda ishlaydi';
+    }
+    .App{
+        display: none;
+    }
+}
+    
